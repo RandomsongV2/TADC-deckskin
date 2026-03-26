@@ -5,7 +5,7 @@
 --- MOD_DESCRIPTION: Adds deckskins from the amazing digital circus for each suit
 --- PRIORITY: 0
 --- DISPLAY_NAME: TADC deckskin
---- VERSION: 1.0
+--- VERSION: 1.1
 --- WEBSITE_URL: https://github.com/RandomsongV2/TADC-deckskin
 --- DEPENDENCIES: []
 --- PREFIX: tadc_deckskin
@@ -100,7 +100,8 @@ if SMODS then
                 key = 'hc',
                 atlas = 'tadc_deckskin_C2',
                 pos_style = 'collab',
-                ranks = {'King', 'Queen', 'Jack'}
+                ranks = {'King', 'Queen', 'Jack'},
+                hc_default = true
             }
         }
     }
@@ -119,7 +120,8 @@ if SMODS then
                 key = 'hc',
                 atlas = 'tadc_deckskin_H2',
                 pos_style = 'collab',
-                ranks = {'King', 'Queen', 'Jack'}
+                ranks = {'King', 'Queen', 'Jack'},
+                hc_default = true
             }
         }
     }
@@ -138,7 +140,8 @@ if SMODS then
                 key = 'hc',
                 atlas = 'tadc_deckskin_S2',
                 pos_style = 'collab',
-                ranks = {'King', 'Queen', 'Jack'}
+                ranks = {'King', 'Queen', 'Jack'},
+                hc_default = true
             }
         }
     }
@@ -157,7 +160,8 @@ if SMODS then
                 key = 'hc',
                 atlas = 'tadc_deckskin_D2',
                 pos_style = 'collab',
-                ranks = {'King', 'Queen', 'Jack'}
+                ranks = {'King', 'Queen', 'Jack'},
+                hc_default = true
             }
         }
     }
